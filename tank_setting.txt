@@ -1,0 +1,422 @@
+#This is where you can add more Tanks. You can freely switch every config position inside Tank setting table
+#Beware to not move the bracket '{}'. You can add your own comments by using # then follow by your comment texts.
+#DO NOT add comment the same line of tank setting. Below is what does each setting do.
+#-------------------------------------------------------------------------
+#Base_Damage = Tank Damage in  in %. eg Base_Damage = 40 means Tank will do 40% of original damage.
+#Base_Health = Tank Health. Leave to 4000 to use original game health.
+#Health_Multiply = Multiplies Tank Health with this value. eg. set to 1.0 means Tank will have 100% more health.
+#Enable = Enable or Disable this tank from spawning. Set to 'true' and 'false' only
+#Fire_Immune = Enable or Disable fire immunity on this entity. Set to 'true' and 'false' only.
+#Variant_Fire_Immune = Enable or Disable fire immunity on this Tank variant. Set to 'true' and 'false' only.
+#Overlord_Chance = Chance to spawn overlord class of this Tank.
+#Difficulty_Appearance = Allow this Tank to be spawned on specific difficulty.
+#	5 = All Difficulty
+#	4 = Expert
+#	3 = Advanced
+#	2 = Normal
+#	1 = Easy
+#Can put | sign to allow more than one difficulty eg 1|2|3 This will allow Tank to be spawned on Easy, Normal and Advanced.
+#Finale_Only: Allow this Tank to be spawned in finale chapter only. Set to 'true' or 'false' only.
+#-------------------------------------------------------------------------
+
+Acid_Tank = {
+    Base_Damage = 40
+    Base_Health = 40000
+    Difficulty_Appearance = 5
+    Enable = false
+    Finale_Only = false
+    Fire_Immune = false
+    Health_Multiply = 0
+    Overlord_Base_Health = 4000
+    Overlord_Chance = 100
+    Variant_Chance = 100
+    Variant_Fire_Immune = false
+}
+Admin_Tank = {
+    Base_Damage = 40
+    Base_Health = 40000
+    Difficulty_Appearance = 5
+    Enable = false
+    Finale_Only = false
+    Fire_Immune = false
+    Health_Multiply = 0
+    Overlord_Base_Health = 4000
+    Overlord_Chance = 0
+    Variant_Chance = 30
+    Variant_Fire_Immune = false
+}
+Alchemist_Tank = {
+    Base_Damage = 40
+    Base_Health = 40000
+    Difficulty_Appearance = 5
+    Enable = false
+    Finale_Only = false
+    Fire_Immune = false
+    Health_Multiply = 0
+    Overlord_Base_Health = 4000
+    Overlord_Chance = 0
+    Variant_Chance = 30
+    Variant_Fire_Immune = false
+}
+Binder_Tank = {
+    Base_Damage = 40
+    Base_Health = 40000
+    Difficulty_Appearance = 5
+    Enable = false
+    Finale_Only = false
+    Fire_Immune = false
+    Health_Multiply = 0
+    Overlord_Base_Health = 4000
+    Overlord_Chance = 0
+    Variant_Chance = 30
+    Variant_Fire_Immune = false
+}
+Black_Hole_Tank = {
+    Base_Damage = 40
+    Base_Health = 40000
+    Difficulty_Appearance = 5
+    Enable = false
+    Finale_Only = false
+    Fire_Immune = false
+    Health_Multiply = 0
+    Overlord_Base_Health = 4000
+    Overlord_Chance = 10
+    Variant_Chance = 30
+    Variant_Fire_Immune = false
+}
+Bloodlust_Tank = {
+    Base_Damage = 60
+    Base_Health = 40000
+    Difficulty_Appearance = 5
+    Enable = false
+    Finale_Only = false
+    Fire_Immune = false
+    Health_Multiply = 0
+    Overlord_Base_Health = 40000
+    Overlord_Chance = 0
+    Variant_Chance = 100
+    Variant_Fire_Immune = false
+}
+Boomer_Tank = {
+    Base_Damage = 40
+    Base_Health = 40000
+    Difficulty_Appearance = 5
+    Enable = false
+    Finale_Only = false
+    Fire_Immune = false
+    Health_Multiply = 0
+    Overlord_Base_Health = 4000
+    Overlord_Chance = 10
+    Variant_Chance = 30
+    Variant_Fire_Immune = false
+}
+Immortal_Tank = {
+    Base_Damage = 200
+    Base_Health = 10000
+    Difficulty_Appearance = 5
+    Enable = true
+    Finale_Only = false
+    Health_Multiply = 0.3
+    Overlord_Chance = 0
+    Variant_Chance = 0
+    Variant_Fire_Immune = false
+}
+Death_Tank = {
+    Base_Health = 15000
+    Difficulty_Appearance = 5
+    Enable = false
+    Finale_Only = false
+    Fire_Immune = false
+    Health_Multiply = 0
+    Overlord_Base_Health = 4000
+    Overlord_Chance = 10
+    Variant_Chance = 30
+    Variant_Fire_Immune = false
+}
+Earthquake_Tank = {
+    Base_Damage = 40
+    Base_Health = 40000
+    Difficulty_Appearance = 5
+    Enable = false
+    Finale_Only = false
+    Fire_Immune = false
+    Health_Multiply = 0
+    Overlord_Base_Health = 4000
+    Overlord_Chance = 0
+    Variant_Chance = 30
+    Variant_Fire_Immune = false
+}
+Enrage_Tank = {
+    Base_Damage = 65
+    Base_Health = 40000
+    Difficulty_Appearance = 5
+    Enable = false
+    Finale_Only = false
+    Fire_Immune = false
+    Health_Multiply = 0
+    Overlord_Base_Health = 4000
+    Overlord_Chance = 0
+    Variant_Chance = 70
+    Variant_Fire_Immune = false
+}
+Explosive_Tank = {
+    Base_Damage = 40
+    Base_Health = 40000
+    Difficulty_Appearance = 5
+    Enable = false
+    Finale_Only = false
+    Fire_Immune = false
+    Health_Multiply = 0
+    Overlord_Base_Health = 4000
+    Overlord_Chance = 100
+    Variant_Chance = 100
+    Variant_Fire_Immune = false
+}
+Fire_Tank = {
+    Base_Damage = 40
+    Base_Health = 40000
+    Difficulty_Appearance = 5
+    Enable = false
+    Finale_Only = false
+    Health_Multiply = 0
+    Overlord_Base_Health = 30000
+    Overlord_Chance = 100
+    Variant_Chance = 100
+}
+Freezing_Tank = {
+    Base_Damage = 40
+    Base_Health = 40000
+    Difficulty_Appearance = 5
+    Enable = false
+    Finale_Only = false
+    Health_Multiply = 0
+    Overlord_Base_Health = 4000
+    Overlord_Chance = 10
+    Variant_Chance = 30
+}
+Illusion_Tank = {
+    Base_Damage = 40
+    Base_Health = 40000
+    Difficulty_Appearance = 5
+    Enable = false
+    Finale_Only = false
+    Fire_Immune = false
+    Health_Multiply = 0
+    Overlord_Base_Health = 4000
+    Overlord_Chance = 0
+    Variant_Chance = 30
+}
+Immortal_Tank = {
+    Base_Damage = 140
+    Base_Health = 10000
+    Difficulty_Appearance = 5
+    Enable = true
+    Finale_Only = false
+    Health_Multiply = 0.3
+    Overlord_Chance = 20
+    Variant_Chance = 0
+    Variant_Fire_Immune = false
+}
+Injury_Tank = {
+    Base_Damage = 40
+    Base_Health = 4000
+    Difficulty_Appearance = 5
+    Enable = false
+    Finale_Only = false
+    Fire_Immune = false
+    Health_Multiply = 0
+    Overlord_Base_Health = 40000
+    Overlord_Chance = 0
+    Variant_Chance = 30
+    Variant_Fire_Immune = false
+}
+Lightning_Tank = {
+    Base_Damage = 40
+    Base_Health = 40000
+    Difficulty_Appearance = 5
+    Enable = false
+    Finale_Only = false
+    Fire_Immune = false
+    Health_Multiply = 0
+    Overlord_Base_Health = 4000
+    Overlord_Chance = 10
+    Variant_Chance = 30
+    Variant_Fire_Immune = false
+}
+Mech_Tank = {
+    Base_Damage = 40
+    Base_Health = 35000
+    Difficulty_Appearance = 5
+    Enable = false
+    Finale_Only = false
+    Fire_Immune = false
+    Health_Multiply = 0
+    Overlord_Base_Health = 15000
+    Overlord_Chance = 100
+    Variant_Chance = 100
+}
+Meteor_Tank = {
+    Base_Damage = 40
+    Base_Health = 40000
+    Difficulty_Appearance = 5
+    Enable = false
+    Finale_Only = false
+    Fire_Immune = false
+    Health_Multiply = 0
+    Overlord_Base_Health = 4000
+    Overlord_Chance = 100
+    Variant_Chance = 100
+    Variant_Fire_Immune = false
+}
+Necromancer_Tank = {
+    Base_Damage = 40
+    Base_Health = 40000
+    Difficulty_Appearance = 5
+    Enable = false
+    Finale_Only = false
+    Fire_Immune = false
+    Health_Multiply = 0
+    Overlord_Base_Health = 4000
+    Overlord_Chance = 10
+    Variant_Chance = 30
+    Variant_Fire_Immune = false
+}
+Phantom_Tank = {
+    Base_Damage = 40
+    Base_Health = 40000
+    Difficulty_Appearance = 5
+    Enable = false
+    Fire_Immune = false
+    Health_Multiply = 0
+    Overlord_Base_Health = 4000
+    Overlord_Chance = 0
+    Variant_Chance = 30
+}
+Poison_Tank = {
+    Base_Damage = 40
+    Base_Health = 40000
+    Difficulty_Appearance = 5
+    Enable = false
+    Finale_Only = false
+    Fire_Immune = false
+    Health_Multiply = 0
+    Overlord_Base_Health = 4000
+    Overlord_Chance = 0
+    Variant_Chance = 100
+    Variant_Fire_Immune = false
+}
+Police_Tank = {
+    Base_Damage = 40
+    Base_Health = 40000
+    Difficulty_Appearance = 5
+    Enable = false
+    Finale_Only = false
+    Fire_Immune = false
+    Health_Multiply = 0
+    Overlord_Base_Health = 4000
+    Overlord_Chance = 75
+    Variant_Chance = 75
+    Variant_Fire_Immune = false
+}
+Reflector_Tank = {
+    Base_Damage = 40
+    Base_Health = 40000
+    Difficulty_Appearance = 5
+    Enable = false
+    Finale_Only = false
+    Fire_Immune = false
+    Health_Multiply = 0
+    Overlord_Base_Health = 4000
+    Overlord_Chance = 100
+    Variant_Chance = 100
+}
+Shield_Tank = {
+    Base_Damage = 60
+    Base_Health = 25000
+    Difficulty_Appearance = 5
+    Enable = false
+    Finale_Only = false
+    Health_Multiply = 0
+    Overlord_Base_Health = 30000
+    Overlord_Chance = 100
+    Variant_Chance = 100
+    Variant_Fire_Immune = false
+}
+Spawner_Tank = {
+    Base_Damage = 40
+    Base_Health = 40000
+    Difficulty_Appearance = 5
+    Enable = false
+    Finale_Only = false
+    Fire_Immune = false
+    Health_Multiply = 0
+    Overlord_Base_Health = 4000
+    Overlord_Chance = 10
+    Variant_Chance = 30
+    Variant_Fire_Immune = false
+}
+Steelweaver_Tank = {
+    Base_Damage = 40
+    Base_Health = 40000
+    Difficulty_Appearance = 5
+    Enable = false
+    Finale_Only = false
+    Fire_Immune = false
+    Health_Multiply = 0
+    Overlord_Base_Health = 4000
+    Overlord_Chance = 0
+    Variant_Chance = 30
+    Variant_Fire_Immune = false
+}
+Swift_Tank = {
+    Base_Damage = 40
+    Base_Health = 40000
+    Difficulty_Appearance = 5
+    Enable = false
+    Finale_Only = false
+    Fire_Immune = false
+    Health_Multiply = 0
+    Overlord_Base_Health = 4000
+    Overlord_Chance = 10
+    Variant_Chance = 30
+    Variant_Fire_Immune = false
+}
+Thief_Tank = {
+    Base_Damage = 40
+    Base_Health = 40000
+    Difficulty_Appearance = 5
+    Enable = false
+    Finale_Only = false
+    Fire_Immune = false
+    Health_Multiply = 0
+    Overlord_Base_Health = 4000
+    Overlord_Chance = 0
+    Variant_Chance = 30
+    Variant_Fire_Immune = false
+}
+Trickster_Tank = {
+    Base_Health = 4000
+    Difficulty_Appearance = 5
+    Enable = false
+    Finale_Only = false
+    Fire_Immune = false
+    Health_Multiply = 0
+    Overlord_Base_Health = 4000
+    Overlord_Chance = 0
+    Variant_Chance = 30
+    Variant_Fire_Immune = false
+}
+Wind_Tank = {
+    Base_Damage = 40
+    Base_Health = 4000
+    Difficulty_Appearance = 5
+    Enable = false
+    Finale_Only = false
+    Fire_Immune = false
+    Health_Multiply = 0
+    Overlord_Base_Health = 4000
+    Overlord_Chance = 0
+    Variant_Chance = 30
+    Variant_Fire_Immune = false
+}
+ 
