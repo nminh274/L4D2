@@ -1,0 +1,237 @@
+#This file is all settings about each Tank powers. You can set damage, skill interval and more.
+#Keep in mind that set skill interval too low could crash the game as it's too much spam.
+#-------------------------------------------------------------------------------------
+
+Acid = {
+    Acid_Droplet_Damage = 1
+    Acid_Droplet_Damage_Interval = 0.5
+    Acid_Droplet_Interval = 1.2
+    Acid_Interval = 8
+    Corrosive_Acid_Nova_Damage = 2
+    Corrosive_Acid_Nova_Damage_Interval = 0.3
+    Corrosive_Acid_Nova_Interval = 10
+}
+Admin = {
+    Abusive_Command_Interval = 12
+    Admin_Command_Interval = 18
+}
+Alchemist = {
+    Alchemist_Explosion_Damage = 7
+    Alchemist_Explosion_Damage_Per_Stack = 4
+    Elementalist_Explosion_Damage = 1
+    Elementalist_Explosion_Damage_Per_Stack = 1.5
+    Elementalist_Fire_Damage = 1
+    Elementalist_Fire_Damage_Interval = 0.5
+    Elementalist_Lightning_Damage = 1
+    Elementalist_Skill_Interval = 15
+    Elementalist_Wind_Damage = 1
+    Elementalist_Wind_Damage_Interval = 0.5
+    Overlord_Lightning_Ball_Damage = 2
+    Overlord_Lightning_Ball_Interval = 10
+    Overlord_Sun_Damage = 2
+    Overlord_Sun_Damage_Interval = 0.5
+    Overlord_Sun_Duration = 10
+    Overlord_Sun_Interval = 20
+    Overlord_Wind_Ball_Damage = 2
+    Overlord_Wind_Ball_Interval = 15
+    Overlord_Wind_Ball_Shooting_Interval = 2
+}
+Binder = {
+    Binder_Effect_Range = 350
+    Binder_Transfer_Damage = 0.5
+    Linker_Effect_Range = 650
+}
+Black_Hole = {
+    Black_Hole_AoE = 1300
+    Black_Hole_Interval = 13
+    Overlord_Black_Hole_AoE = 1000
+    Overlord_Black_Hole_Damage = 2
+    Overlord_Black_Hole_Damage_Interval = 3
+    Singularity_AoE = 1800
+}
+Bloodlust = {
+    Bloodhunger_Drain_Health_Interval = 1
+    Bloodhunger_Health_Drain_AoE = 400
+    Bloodhunger_Health_Regen_Interval = 0.5
+    Bloodhunger_Max_Health_Drain_Amount = 1
+    Bloodhunger_Recovery_Max_Health_Percentage = 1
+    Bloodlust_Health_Regen_Cooldown = 18
+    Bloodlust_Health_Regen_Interval = 1
+    Bloodlust_Recovery_Max_Health_Percentage = 4 
+    Bloodlust_Regen_Time = 5
+}
+Boomer = {
+    Boomer_Vomit_Explode_Chance = 10
+    Corrupted_Vomit_Interval = 18
+    Overlord_Boomer_Minion_Health = 1000
+    Overlord_Vomit_Interval = 15
+}
+Death = {
+    Death_Move_Speed = 0.6
+}
+Earthquake = {
+    Earthquake_Damage = 2
+    Earthquake_Interval = 14
+    Rupture_Seismic_Wave_Interval = 10
+}
+Enrage = {
+    Berserker_Attack_Boost = 0.2
+    Berserker_Speed_Reduction = 0.7
+    Enrage_Attack_Boost = 0.1
+    Enrage_Speed_Boost = 1
+}
+Explosive = {
+    Explosion_Damage = 2
+    Explosion_Interval = 13
+    Nuke_Explosion_AoE = 600
+    Nuke_Explosion_Damage = 10
+    Nuke_Explosion_Interval = 15
+    Nuke_Rock_Explosion_AoE = 400
+    Nuke_Rock_Explosion_Damage = 10
+    Overlord_Explosion_Damage = 3
+    Overlord_Moving_Explosion_Damage = 2
+    Overlord_Moving_Explosion_Interval = 5
+    Overlord_Rock_Explosion_Damage = 35
+}
+Fire = {
+    Fire_Tank_Burning_Ground_Interval = 6
+    Flame_Cloack_Damage = 1
+    Flame_Cloack_Interval = 1.5
+    Hellfire_Flame_Pillar_Interval = 110
+    Overlord_Fire_Rains_Damage = 3
+    Overlord_Fire_Rains_Damage_Interval = 0.3
+    Overlord_Fire_Rains_Interval = 0.8
+    Overlord_Flame_Cloack_Interval = 0.8
+    Overlord_Flame_Spin_Damage = 3
+    Overlord_Flame_Spin_Damage_Interval = 0.15
+    Rock_Fire_Damage = 2
+    Rock_Fire_Damage_Inerval = 0.5
+    Rock_Fire_Duration = 5.5
+}
+Freezing = {
+    Hydro_Circular_Bomb_Damage = 2
+    Hydro_Circular_Bomb_Interval = 13
+    Hydro_Push_Interval = 18
+    Overlord_Freezing_Range = 420
+    Overlord_Hydro_Mine_Damage = 5
+}
+Illusion = {
+    Delusion_Skill_Interval = 10
+    Illusion_Speed = 4.0
+}
+Immortal = {
+    Base_Health = 20000
+    Immortal_Base_Timer = 50
+    Immortal_Timer_Difficulty_Multiply = 0.45
+    Overlord_Base_Timer = 40
+    Samsara_Lives = 5
+}
+Injury = {
+    Black_Fog_Damage = 1
+    Black_Fog_Interval = 0.5
+    Red_Fog_Damage = 1
+    Red_Fog_Damage_Interval = 0.7
+    Red_Fog_Infected_Health_Chance = 3
+    Red_Fog_Interval = 15
+}
+Lightning = {
+    Electric_Mine_Damage = 2
+    Electric_Mine_Interval = 15
+    Lightning_Strike_Damage = 1
+    Lightning_Strike_Interval = 0.2
+    Overlord_Electrocute_Damage = 2
+    Overlord_Electrocute_Interval = 3.5
+    Overlord_Lightning_Strike_Damage = 6
+    Overlord_Lightning_Strike_Interval = 0.3
+    Overlord_Thunderstorm_Damage = 10
+    Overlord_Thunderstorm_Interval = 20
+    Zap_Damage = 1
+    Zap_Interval = 3
+}
+Mech = {
+    Air_Strike_Interval = 10
+    Legion_Flak_Tower_Interval = 8
+    Legion_Laser_Tower_Interval = 10
+    Mech_Laser_Tower_Interval = 8.5
+    Overlord_Orbital_Cannon_AoE = 700
+    Overlord_Orbital_Cannon_Damage = 30
+    Overlord_Orbital_Cannon_Interval = 13
+    Overlord_Orbital_Heatwave_Damage = 1
+    Overlord_Orbital_Heatwave_Interval = 12
+    Overlord_Orbital_Laser_Damage = 2
+    Overlord_Orbital_Laser_Interval = 0.3
+    Red_Laser_Damage = 1
+    Red_Laser_Interval = 0.2
+}
+Meteor = {
+    Doomsday_Meteor_Rain_Interval = 0.25
+    Huge_Meteor_Damage = 15
+    Meteor_Count = 10
+    Meteor_Damage = 4
+    Meteor_Interval = 13
+    Overlord_Meteor_Rain_Interval = 0.25
+}
+Necromancer = {
+    Necro_Witch_Health_Reduction = 0.5
+    Necro_Witch_damage = 0.3
+    Necromancer_Effect_Range = 400
+}
+Phantom = {
+    Phantom_Tank_Bleed_Interval = 1.5
+    Wraith_Tank_Visible_Time = 1.5
+}
+Poison = {
+    Max_Poison_Duration = 8
+    Poison_Damage = 1
+    Poison_Damage_Interval = 1
+    Poison_Duration = 5
+    Poison_Spread_Range = 150
+    Venom_Ball_Poison_Damage = 2
+    Venom_Ball_Poison_Duration = 10
+    Venom_Tank_Poison_Damage = 1
+    Venom_Tank_Poison_Duration = 3
+    Venom_Tank_Poison_Interval = 0.3
+}
+Police = {
+    Police_Tank_Flash_Brightness = 40
+}
+Reflector = {
+    Overlord_Reflect_Damage = 1
+    Reflector_Reflect_Damage = 0.8
+    Reflector_Shield_Interval = 20
+}
+Shield = {
+    Fortress_Damage_Reduction = 34
+    Overlord_SI_Damage_Reduction = 80
+    Overlord_Shield_Point = 170
+    Shield_Cooldown = 18
+    Shield_Point = 65
+}
+Spawner = {
+    General_Max_Minions = 10
+    General_Spawn_Minions_Interval = 15
+    Overlord_Spawn_Minions_Interval = 13
+    Spawner_Max_Minions = 5
+    Spawner_Spawn_Minions_Interval = 15
+}
+Steelweaver = {
+    Forge_Flying_Weapons_Damage = 2
+    Forge_Flying_Weapons_Interval = 0.3
+    Spin_Swords_Damage = 1
+    Weaver_Flying_Weapons_Damage = 2
+    Weaver_Skill_Interval = 10
+}
+Swift = {
+    Move_Speed = 2.5
+    Overlord_Attack_Teleport_Chance = 55
+    Overlord_Lightning_Damage = 0
+    Overlord_Teleport_Interval = 9
+    Shift_Teleport_Interval = 9
+}
+Wind = {
+    Tempest_Wind_Current_Chain = 9
+    Tempest_Wind_Current_Damage = 1
+    Tempest_Wind_Current_Interval = 13
+    Wind_Tank_Current_Interval = 8
+}
+ 

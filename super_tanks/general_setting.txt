@@ -1,0 +1,42 @@
+#This is genral Super Tanks settings. the option with 'true' or 'false' can be set to 'true' or 'false' only.
+#-------------------------------------------------------------------------------------
+#Tank_Health_Bar: Set to 1 to show Tank health bar when shooting at him. Set to 0 to hide the health bar.
+#Tank_Spawner: Set to 1 to enable Tank spawn around the saferoom if haven't encountered any Tank. Set to 0 to disable.
+#Disable_All_Powers: Set to 0 to enable Tank powers. Set to 1 to disable every Tank powers.
+#Tank_Spawn_Notify: Set to 1 to Show notification when Tank spawned with special powers. Set to 0 to disable this feature.
+#Godmode: Set to 1 to immune to all damage from most of damage sources. Set to 0 to disable this feature.
+#Godmode_Bots: Set to 1 for survivor bots to immune to damage. Set to 0 to disable
+#Overlord_Tank_Limit: How many Overlord Class can be spawned at a time. Keep in mind that spawning too many Overlord Tanks at the same time could crash the game.
+#Hidden_Tank_Limit: How many Hidden Class Tank can be spawned at a time. Keep in mind that this class Tank is the hardest class. also spawning too many could crash the game.
+#Hidden_Tank_Enable: Set to 1 to enable Hidden Class Tank. Set to 0 to disable.
+#Hidden_Tank_Chance: Chance to spawn Hidden Tank Class.
+#Hidden_Tank_Variant_Chance: A Variant chance for Hidden Tank Class.
+#No_Hidden_Tank_After_Restart_Times: Prevent Hidden Tank Class from spawning after this retries.
+#Hidden_Tank_Health: Leave it to 4000 to use default game health for Hidden Tank.
+#Hidden_Tank_Health_Multiply: Hidden Tank Health multiplies by this value.
+#Tank_Rewards_Type: When Tank dies, Which health items set will be droped.
+	#0 = Disable
+	#1 = Med Kits/Defibs
+	#2 = Pills/Adrenaline/Defibs
+	#3 = Random Set
+#-------------------------------------------------------------------------------------
+
+Disable_All_Powers = 0
+Godmode = 0
+Godmode_Bots = 0
+Hidden_Tank_Chance = 100
+Hidden_Tank_Enable = 1
+Hidden_Tank_Health = 20000
+Hidden_Tank_Health_Multiply = 0
+Hidden_Tank_Limit = 1
+Hidden_Tank_Variant_Chance = 0
+No_Hidden_Tank_After_Restart_Times = 1
+Number_Custom_Tank_File = 3
+Overlord_Tank_Limit = 10
+Spawn_Both_Tanks = false
+Spawn_Custom_Tanks_Only = true
+Spawn_Mod_Tanks_Only = false
+Tank_Health_Bar = 1
+Tank_Rewards_Type = 1
+Tank_Spawn_Notify = 3
+Tank_Spawner = 1
