@@ -1,0 +1,16 @@
+// The addoninfo.txt file is a metadata file that is required by all Source Engine Add-ons.
+
+"AddonInfo"
+{
+	addonSteamAppID		550							// 500 is the app ID for Left 4 Dead, 550 for Left 4 Dead 2
+	addontitle		"Tank Jump Boost 2"						// Add-on title that shows up in Add-ons list. ~20 chars max
+	addonversion		1.0							// Add-on version.
+	addontagline		""
+	addonauthor		"MinhTN"						// Name/alias of the author
+	addonSteamGroupName	""						
+	addonauthorSteamID	""	
+	addonURL0		""			
+
+	// short description that appears in the Add-on list screen...
+	addonDescription	"Tanks Jump Boost + Bunny Hop"
+}
