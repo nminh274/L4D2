@@ -2,59 +2,11 @@
 ######################################	Make sure the file size doesn't reach 12kb or the file will not load	######################################
 ######################################	Use another custom tank file if the size reaches 12kb	######################################
 #Below is an example custom tank. Make sure to not miss any setting lines
-Regular = {
-	Tank_Name = Regular
-	Enable = true
-	Tank_Class = common
-	Base_Health = 45000
-	Base_Damage = 80
-	Glow_Color = r255,g105,b105
-	Skin_Color = r255,g255,b255
-	Glow_Type = 1
-	Glow_Flashing = false
-	Fire_Immune = false
-	Variant_Fire_Immune = false
-	Powers = None
-	Difficulty_Appearance = 5
-	Finale_Only = false
-}
-Tanky_Armored = {
-	Tank_Name = Tanky_Armored
-	Enable = true
-	Tank_Class = common
-	Base_Health = 8000
-	Base_Damage = 20
-	Glow_Color = r255,g255,b60
-	Skin_Color = r255,g255,b60
-	Glow_Type = 3
-	Glow_Flashing = true
-	Fire_Immune = false
-	Variant_Fire_Immune = false
-	Powers = Berserker_Enrage_Variant,Fortress_Shield_Variant,Aegisbreaker_Shield_Overlord,Binder_Variant
-	Difficulty_Appearance = 5
-	Finale_Only = false
-}
-Eternal_Dread = {
-	Tank_Name = Eternal_Dread
-	Enable = true
-	Tank_Class = common
-	Base_Health = 6500
-	Base_Damage = 40
-	Glow_Color = r175,g65,b255
-	Skin_Color = r175,g65,b255
-	Glow_Type = 3
-	Glow_Flashing = true
-	Fire_Immune = true
-	Variant_Fire_Immune = false
-	Powers = Immortal_Variant,Explosive,Earthquake,Illusion
-	Difficulty_Appearance = 5
-	Finale_Only = false
-}
 Authority = {
 	Tank_Name = Authority
-	Enable = true
+	Enable = false
 	Tank_Class = common
-	Base_Health = 23000
+	Base_Health = 6500
 	Base_Damage = 40
 	Glow_Color = r229,g28,b28
 	Skin_Color = r0,g0,b0
@@ -66,106 +18,36 @@ Authority = {
 	Difficulty_Appearance = 5
 	Finale_Only = false
 }
-Phoenix = {
-	Tank_Name = Phoenix
-	Enable = true
+Frost = {
+	Tank_Name = Frost
+	Enable = false
 	Tank_Class = common
-	Base_Health = 38000
-	Base_Damage = 40
-	Glow_Color = r229,g100,b100
-	Skin_Color = r229,g28,b28
-	Glow_Type = 3
-	Glow_Flashing = true
-	Fire_Immune = false
-	Variant_Fire_Immune = true
-	Powers = Fire_Variant,Enrage,Illusion,Swift
-	Difficulty_Appearance = 5
-	Finale_Only = false
-}
-Riot = {
-	Tank_Name = Riot
-	Enable = true
-	Tank_Class = common
-	Base_Health = 20000
-	Base_Damage = 25
-	Glow_Color = r45,g178,b255
-	Skin_Color = r182,g162,b155
-	Glow_Type = 3
-	Glow_Flashing = true
+	Base_Health = 3400
+	Base_Damage = 60
+	Glow_Color = r155,g255,b255
+	Skin_Color = r155,g255,b255
+	Glow_Type = 1
+	Glow_Flashing = false
 	Fire_Immune = false
 	Variant_Fire_Immune = false
-	Powers = SWAT_Police_Variant,Police,Shield
+	Powers = Shield_Variant,Freezing_Overlord
 	Difficulty_Appearance = 5
 	Finale_Only = false
-}
-Berserker = {
-	Tank_Name = Berserker
-	Enable = true
+Armored = {
+	Tank_Name = Armored
+	Enable = false
 	Tank_Class = common
-	Base_Health = 19000
-	Base_Damage = 120
-	Glow_Color = r255,g0,b0
-	Skin_Color = r229,g28,b28
-	Glow_Type = 3
-	Glow_Flashing = true
-	Fire_Immune = false
-	Variant_Fire_Immune = false
-	Powers = Swift,Enrage_Variant,Illusion
-	Difficulty_Appearance = 5
-	Finale_Only = false
-}
-Wraith = {
-	Tank_Name = Wraith
-	Enable = true
-	Tank_Class = common
-	Base_Health = 30000
+	Base_Health = 3200
 	Base_Damage = 40
-	Glow_Color = r255,g100,b100
-	Skin_Color = r255,g71,b26
-	Skin_Alpha = 128
+	Glow_Color = 255,g255,b255
+	Skin_Color = r255,g255,255
 	Glow_Type = 0
-	Glow_Flashing = false
+	Glow_Flashing = true
 	Fire_Immune = false
 	Variant_Fire_Immune = false
-	Powers = Phantom,Enrage,Swift,Illusion_Variant
+	Powers = Bloodlust,Shield_Variant,Shield_Overlord
 	Difficulty_Appearance = 5
 	Finale_Only = false
 }
-Sorcerer = {
-	Tank_Name = Sorcerer
-	Enable = true
-	Tank_Class = common
-	Base_Health = 10000
-	Base_Damage = 20
-	Glow_Color = r30,g180,b6
-	Skin_Color = r30,g176,b6
-	Skin_Alpha = 255
-	Glow_Type = 1
-	Glow_Flashing = false
-	Fire_Immune = false
-	Variant_Fire_Immune = false
-	Powers = Spawner,Necromancer,Binder_Variant
-	Difficulty_Appearance = 5
-	Finale_Only = false
-}
-One_Punch = {
-	Tank_Name = One_Punch
-	Enable = true
-	Tank_Class = common
-	Base_Health = 10000
-	Base_Damage = 100
-	Glow_Color = r255,g255,b80
-	Skin_Color = r255,g255,b80
-	Skin_Alpha = 255
-	Glow_Type = 1
-	Glow_Flashing = false
-	Fire_Immune = false
-	Variant_Fire_Immune = false
-	Powers = Death,Enrage_Variant,Swift,Illusion
-	Difficulty_Appearance = 5
-	Finale_Only = false
-}
-#Visit mod description for more infomations about how to set up custom tank.
-#-------------------------------------------------------------------------------------
 
  
