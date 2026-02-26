@@ -1,0 +1,16 @@
+// The addoninfo.txt file is a metadata file that is required by all Source Engine Add-ons.
+
+"AddonInfo"
+{
+	addonSteamAppID		550
+	addontitle		"Tank Jump v3"
+	addonversion		1.1
+	addontagline		""
+	addonauthor		"MinhTN"
+	addonSteamGroupName	""						
+	addonauthorSteamID	""	
+	addonURL0		""			
+
+	// short description that appears in the Add-on list screen...
+	addonDescription	"Tanks Jump Boost + Bunny Hop + Super Jump"
+}
